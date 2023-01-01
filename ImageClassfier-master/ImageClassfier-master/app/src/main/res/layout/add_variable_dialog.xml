@@ -1,0 +1,70 @@
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/add_variable_dialog_title"
+        android:layout_width="match_parent"
+        style="@style/TitleTextStyle"
+        android:layout_height="wrap_content"
+        android:text="변수 생성하기"
+        app:layout_constraintTop_toTopOf="parent"
+        android:padding="@dimen/base_padding"
+        android:background="@color/backgroundPrimary"/>
+
+    <TextView
+        android:id="@+id/variable_name_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="변수명"
+        app:layout_constraintTop_toBottomOf="@id/add_variable_dialog_title"
+        app:layout_constraintStart_toStartOf="parent"
+        android:layout_margin="@dimen/base_margin"/>
+
+    <EditText
+        android:id="@+id/variable_name_edit"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="variableName"
+        app:layout_constraintTop_toBottomOf="@id/variable_name_text"
+        android:inputType="textEmailAddress"
+        android:layout_margin="@dimen/base_margin"/>
+
+    <TextView
+        android:id="@+id/variable_data_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="변수 값"
+        app:layout_constraintTop_toBottomOf="@id/variable_name_edit"
+        app:layout_constraintStart_toStartOf="parent"
+        android:layout_marginTop="@dimen/base_margin"
+        android:layout_margin="@dimen/base_margin"/>
+
+    <EditText
+        android:id="@+id/variable_data_edit"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="variableData"
+        app:layout_constraintTop_toBottomOf="@id/variable_data_text"
+        android:layout_margin="@dimen/base_margin"/>
+
+    <Button
+        android:id="@+id/add_variable_ok_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="ok"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/variable_data_edit"
+        app:layout_constraintEnd_toStartOf="@id/add_variable_cancel_btn" />
+
+    <Button
+        android:id="@+id/add_variable_cancel_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="cancel"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/variable_data_edit"
+        app:layout_constraintEnd_toEndOf="parent" />
+</androidx.constraintlayout.widget.ConstraintLayout>

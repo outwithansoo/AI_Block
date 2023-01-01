@@ -1,0 +1,198 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:scrollbarFadeDuration = "0"
+    android:scrollbarAlwaysDrawVerticalTrack="true">
+
+    <RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="160dp"
+            android:layout_height="150dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="60dp"
+            android:background="@drawable/edge"
+            android:src="@drawable/img_1" />
+
+        <TextView
+            android:layout_width="100dp"
+            android:layout_height="30dp"
+            android:layout_marginLeft="40dp"
+            android:layout_marginTop="220dp"
+            android:background="@color/cardview_shadow_start_color"
+            android:paddingTop="3dp"
+            android:text="덧셈"
+            android:textAlignment="center"
+            android:textSize="18dp" />
+
+        <ImageView
+            android:id="@+id/imageView2"
+            android:layout_width="160dp"
+            android:layout_height="150dp"
+            android:layout_marginLeft="220dp"
+            android:layout_marginTop="60dp"
+            android:background="@drawable/edge"
+            android:src="@drawable/img_2" />
+
+        <TextView
+            android:layout_width="100dp"
+            android:layout_height="30dp"
+            android:layout_marginLeft="250dp"
+            android:layout_marginTop="220dp"
+            android:paddingTop="3dp"
+            android:text="뺄셈"
+           android:textAlignment="center"
+            android:textSize="18dp"
+            android:background="@color/cardview_shadow_start_color"
+            />
+
+        <ImageView
+            android:id="@+id/imageView3"
+            android:layout_width="160dp"
+            android:layout_height="150dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="270dp"
+            android:background="@drawable/edge"
+            android:src="@drawable/img_3" />
+
+        <TextView
+            android:layout_width="100dp"
+            android:layout_height="30dp"
+            android:layout_marginLeft="40dp"
+            android:layout_marginTop="440dp"
+            android:paddingTop="3dp"
+            android:text="곱셈"
+            android:textAlignment="center"
+            android:textSize="18dp"
+            android:background="@color/cardview_shadow_start_color"
+            />
+
+        <ImageView
+            android:id="@+id/imageView4"
+            android:layout_width="160dp"
+            android:layout_height="150dp"
+            android:layout_marginLeft="220dp"
+            android:layout_marginTop="270dp"
+            android:background="@drawable/edge"
+            android:src="@drawable/img_4" />
+
+        <TextView
+            android:layout_width="100dp"
+            android:layout_height="30dp"
+            android:layout_marginLeft="250dp"
+            android:layout_marginTop="440dp"
+            android:background="@color/cardview_shadow_start_color"
+            android:paddingTop="3dp"
+            android:text="나눗셈"
+            android:textAlignment="center"
+            android:textSize="18dp" />
+
+        <ImageView
+            android:id="@+id/imageView5"
+            android:layout_width="160dp"
+            android:layout_height="150dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="490dp"
+            android:background="@drawable/edge"
+            android:src="@drawable/img_5"/>
+
+        <TextView
+            android:layout_width="100dp"
+            android:layout_height="30dp"
+            android:layout_marginLeft="40dp"
+            android:layout_marginTop="650dp"
+            android:paddingTop="3dp"
+            android:text="대입"
+            android:textAlignment="center"
+            android:textSize="18dp"
+            android:background="@color/cardview_shadow_start_color"
+            />
+
+        <ImageView
+            android:id="@+id/imageView6"
+            android:layout_width="160dp"
+            android:layout_height="150dp"
+            android:layout_marginLeft="220dp"
+            android:layout_marginTop="490dp"
+            android:background="@drawable/edge"
+            android:src="@drawable/img_6" />
+
+        <TextView
+            android:layout_width="100dp"
+            android:layout_height="30dp"
+            android:layout_marginLeft="250dp"
+            android:layout_marginTop="650dp"
+            android:background="@color/cardview_shadow_start_color"
+            android:paddingTop="3dp"
+            android:text="만약"
+            android:textAlignment="center"
+            android:textSize="18dp" />
+
+        <ImageView
+            android:id="@+id/imageView7"
+            android:layout_width="160dp"
+            android:layout_height="150dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="700dp"
+            android:background="@drawable/edge"
+            android:src="@drawable/img_7"/>
+
+        <TextView
+            android:layout_width="100dp"
+            android:layout_height="30dp"
+            android:layout_marginLeft="40dp"
+            android:layout_marginTop="870dp"
+            android:background="@color/cardview_shadow_start_color"
+            android:paddingTop="3dp"
+            android:text="반복"
+            android:textAlignment="center"
+            android:textSize="18dp" />
+
+        <ImageView
+            android:id="@+id/imageView8"
+            android:layout_width="160dp"
+            android:layout_height="150dp"
+            android:layout_marginLeft="220dp"
+            android:layout_marginTop="700dp"
+            android:background="@drawable/edge"
+            android:src="@drawable/img_8"/>
+
+        <TextView
+            android:layout_width="100dp"
+            android:layout_height="30dp"
+            android:layout_marginLeft="250dp"
+            android:layout_marginTop="870dp"
+            android:background="@color/cardview_shadow_start_color"
+            android:paddingTop="3dp"
+            android:text="비교"
+            android:textAlignment="center"
+            android:textSize="18dp" />
+
+
+        <Button
+            android:id="@+id/selectBtn"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_marginLeft="175dp"
+            android:layout_marginTop="930dp"
+            android:background="@drawable/ic_baseline_home_24" />
+
+        <TextView
+            android:layout_width="100dp"
+            android:layout_height="30dp"
+            android:layout_marginLeft="150dp"
+            android:layout_marginTop="990dp"
+            android:text="돌아가기"
+            android:textAlignment="center"
+            android:textSize="18dp"
+
+            />
+
+</RelativeLayout>
+</ScrollView>
