@@ -3,7 +3,8 @@
 프로젝트 기간 2022.09~2023.1 
 (Opencv, Yolov4 Custom file, tensorflow lite, Android을 경험했던 프로젝트)
 
-아쉽게도 제대로된 구현은 실패 (첫프로젝트라 미흡했던 부분이 많았음)
+아쉽게도 제대로된 구현은 실패 (첫프로젝트라 다양한 경험을 할 수 있어 좋았지만 미흡한 점이 많았음)
+실패원인 : 오픈소스 활용 안드로이드 구현능력 부족으로 인한 제출기한 도과
 
 ![1](https://user-images.githubusercontent.com/92626903/213448450-a792fca7-b465-41f6-8714-34dbc8125b42.PNG)
 
@@ -220,6 +221,7 @@ https://colab.research.google.com/github/tensorflow/tensorflow/blob/master/tenso
 
 이제는 이 도형을 토대로 안드로이드에서 어떻게 코드생성하는 로직을 짤지 생각해봐야겠다. 
 
+전문인공지능강사님하고 줌 회의한 과정
 
 <img width="829" alt="KakaoTalk_Photo_2023-01-19-22-07-06" src="https://user-images.githubusercontent.com/92626903/213451125-ae24ec0c-2da7-483e-aa9d-438b535d5756.png">
 
