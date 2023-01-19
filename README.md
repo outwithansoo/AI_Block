@@ -1,10 +1,10 @@
 # AI_Block
 
-프로젝트 기간 2022.09~2023.1 
-(Opencv, Yolov4 Custom file, tensorflow lite, Android을 경험했던 프로젝트)
+프로젝트 기간 2022.09~2023.1 </br>
+(Opencv, Yolov4 Custom file, tensorflow lite, Android을 경험했던 프로젝트)</br>
 
-아쉽게도 제대로된 구현은 실패 (첫프로젝트라 다양한 경험을 할 수 있어 좋았지만 미흡한 점이 많았음)
-실패원인 : 오픈소스 활용 안드로이드 구현능력 부족으로 인한 제출기한 도과
+아쉽게도 제대로된 구현은 실패 (첫프로젝트라 다양한 경험을 할 수 있어 좋았지만 미흡한 점이 많았음)</br>
+실패원인 : 오픈소스 활용 안드로이드 구현능력 부족으로 인한 제출기한 도과</br>
 
 ![1](https://user-images.githubusercontent.com/92626903/213448450-a792fca7-b465-41f6-8714-34dbc8125b42.PNG)
 
@@ -14,24 +14,25 @@
 
 ![4](https://user-images.githubusercontent.com/92626903/213448537-9345d320-3967-4a9d-895b-a25d8391ca38.PNG)
 
+* * *
+
+## 정
+
+1학년임에도 불구하고 교수님의 선의로 프로젝트에 참여 할 수 있게 되었다.</br>  
+프로젝트에 참여한다는게 처음 경험하는거라 그 당시에 설렘과 긴장감에 부풀어 있었던 것 같다. 걱정반,기대반!</br>[](https://velog.velcdn.com/images/mnl124/post/1ed28405-28f4-49e7-8cde-f7c0a0fcfd62/image.png)
 
 
---과정--
-1학년임에도 불구하고 교수님의 선의로 프로젝트에 참여 할 수 있게 되었다.  
-프로젝트에 참여한다는게 처음 경험하는거라 그 당시에 설렘과 긴장감에 부풀어 있었던 것 같다. 걱정반,기대반![](https://velog.velcdn.com/images/mnl124/post/1ed28405-28f4-49e7-8cde-f7c0a0fcfd62/image.png)
-
-
-3학년 학교 선배와 함께 진행한다하여 아무것도 모르는 내가 민폐가 되지는 않을까 걱정하기도 했다. 
+3학년 학교 선배와 함께 진행한다하여 아무것도 모르는 내가 민폐가 되지는 않을까 걱정하기도 했다. </br>
 
 프로젝트 주제는 4D-Frame 교구재를 활용한 아이디어 산출이다.![](https://velog.velcdn.com/images/mnl124/post/8f4d30a8-29f6-4b6a-8ecd-1a392e34886e/image.jpeg)
-우리가 생각한 프로젝트 아이디어는 유치원, 초등학교 저학년들이 이 교구재로 모형을 만들어 휴대폰으로 사진을 찍는다면 그 모형에 해당하는 코드기능이 나와 코드를 짜게 해줌으로써 FlowChart 설계능력을 길러 줄 수 있는 어플을 만드는 것이였다.
+우리가 생각한 프로젝트 아이디어는 유치원, 초등학교 저학년들이 이 교구재로 모형을 만들어 휴대폰으로 사진을 찍는다면 그 모형에 해당하는 코드기능이 나와 코드를 짜게 해줌으로써 FlowChart 설계능력을 길러 줄 수 있는 어플을 만드는 것이였다.</br>
 
 ![](https://velog.velcdn.com/images/mnl124/post/a353eaae-f32c-45eb-88d0-9895d146840d/image.png)
-모두가 함께하는 프로젝트이기에  개발환경도 서로 맞추었다. 
-언어 : Python3.9.1, JAVA 
-개발Tool : Android studio, Anaconda, Visual StudioCode 
-딥러닝 이미지처리 : OpenCV Yolov4, Tensorflow 2.3 
-이미지 라벨링작업Tool : Yolo mark , labelimg
+모두가 함께하는 프로젝트이기에  개발환경도 서로 맞추었다. </br>
+언어 : Python3.9.1, JAVA </br>
+개발Tool : Android studio, Anaconda, Visual StudioCode </br>
+딥러닝 이미지처리 : OpenCV Yolov4, Tensorflow 2.3 </br>
+이미지 라벨링작업Tool : Yolo mark , labelimg </br>
 
 ![](https://velog.velcdn.com/images/mnl124/post/3d1d8ea0-228d-4629-a7f6-cf65ebf36105/image.png)
 
@@ -221,7 +222,13 @@ https://colab.research.google.com/github/tensorflow/tensorflow/blob/master/tenso
 
 이제는 이 도형을 토대로 안드로이드에서 어떻게 코드생성하는 로직을 짤지 생각해봐야겠다. 
 
-전문인공지능강사님하고 줌 회의한 과정
+
+많은 삽질 끝에 완벽한 안드로이드 어플리케이션 구현 실패
+
+2023 - 01 -19 (프로젝트 기한종료)
+* * *
+
+## + 교수님께서 인공지능 전문강사님을 줌 회의로 초청 해주셔서 내가 조언을 구했던 질문들
 
 <img width="829" alt="KakaoTalk_Photo_2023-01-19-22-07-06" src="https://user-images.githubusercontent.com/92626903/213451125-ae24ec0c-2da7-483e-aa9d-438b535d5756.png">
 
