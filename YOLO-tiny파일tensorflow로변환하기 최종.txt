@@ -1,0 +1,50 @@
+내가 이해한 yolo-tiny파일 텐서플로우 변환과정
+
+변환과정 첫번째 YOLO파일 텐서플로우 pb형식으로변경
+
+1. 구글드라이브에 학습한 yolov4-tiny-custom_last 파일 바탕화면에 다운로드
+
+2. yolov4-tiny-custom_last 파일 이름을 yolov4-tiny.weights로변경 
+
+3. https://github.com/haroonshakeel/tensorflow-yolov4-tflite 들어가서 파일 다운로드
+
+4. yolov4.weights 파일을 tensorflow-yolov4-tflite-master\data에 넣기
+
+5. Anaconda Prompt 키기
+
+6. activate "가상환경이름"  적어서 가상환경 활성화
+
+7. cd desktop > cd tensorflow-yolov4-tflite-master
+
+8. python save_model.py --weights ./data/yolov4-tiny.weights --output ./checkpoints/yolov4-tiny-416 --input_size 416 --model yolov4 --tiny < 명령어 복붙
+
+--> 여기서 오류 ValueError: cannot reshape array of size 793191 into shape가 생길 수 있음
+
+--> 해결방안  tensorflow-yolov4-tflite-master\core 에서 config 파일에 들어감 __C.YOLO.CLASSES              = "./data/classes/coco.names"  << 코드 14번째줄을 
+     따로 학습한 클래스 명칭과 수에맞게 메모장에 기록해서 만듬 >> "./data/classes/obj.names" <내가 기록한 메모장 이름으로 수정하면 정상작동
+
+https://stackoverflow.com/questions/67496720/converting-yolov4-tiny-to-tflite-errorcannot-reshape-array-of-size-372388-into < 문제해결 참고 사이트
+
+9. tensorflow-yolov4-tflite-master\checkpoints\yolov4-tiny-416 폴더에 들어가보면 save_model.pb 파일 생성됨
+
+변환과정 두번째 텐서플로우 pb파일 어플에 탑재할 수 있게 라이트형식으로 변경
+
+1. python save_model.py --weights ./data/yolov4-tiny.weights --output ./checkpoints/yolov4-416 --input_size 416 --model yolov4 --tiny --framework tflite < 명령어 복붙
+
+2. python convert_tflite.py --weights ./checkpoints/yolov4-416 --output ./checkpoints/yolov4-416.tflite
+
+3. python convert_tflite.py --weights ./checkpoints/yolov4-416 --output ./checkpoints/yolov4-416-fp16.tflite --quantize_mode float16
+
+https://www.youtube.com/watch?v=tCmC7nyfJp8  < 변환과정 유튜브 영상참고
+
+
+
+
+
+
+
+
+
+
+
+
